@@ -1,0 +1,25 @@
+body {
+    font-family: 'Sarabun', Tahoma, sans-serif;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+    color: #495057;
+}
+
+#chart_div {
+    width: 100%;
+    min-height: 250px;
+    overflow-x: auto;
+}
+
+#timelineContainer {
+    display: block; /* ซ่อนและแสดงผ่าน JS */
+}
+
+/* หากต้องการให้ช่องวันที่เหมือน Readonly ตามที่ระบุ */
+input[type="date"] {
+    position: relative;
+}
